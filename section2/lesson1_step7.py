@@ -23,7 +23,7 @@ try:
     x = x_element.get_attribute('valuex')
     y = calc(x)
 
-    input1 = browser.find_element_by_id('answer').send_keys(y);
+    input1 = browser.find_element_by_id('answer').send_keys(y)
 
     checkbox = browser.find_element_by_id("robotCheckbox")
     checkbox.click()
